@@ -32,7 +32,7 @@ while True:
   except:
     print("Invalid input")
     continue
-  if ip >= 9:
+  if ip >= 9 or board[ip] != "-":
     print("Invalid input")
     continue
   last_index = ip
